@@ -17,7 +17,7 @@ https://github.com/huntingsec/asdtools
 
 #### 下载到本地
 
-[![image-20240701203637270](https://github.com/huntingsec/asdtools/image-20240701203637270.png)](https://github.com/huntingsec/asdtools/blob/main/image-20240701203637270.png?raw=true)
+![image-20240701203637270](https://github.com/huntingsec/asdtools/blob/main/image-20240701203637270.png?raw=true)
 
 #### 解压
 
@@ -25,7 +25,7 @@ https://github.com/huntingsec/asdtools
 tar xvf asdtools.tar.xz
 ```
 
-[[![image-20240701203710142](https://github.com/huntingsec/asdtools/image-20240701203710142.png)](https://github.com/huntingsec/asdtools/blob/main/image-20240701203710142.png?raw=true)](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701203710142.png)
+![image-20240701203710142](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701203710142.png)
 
 进入目录，添加安装脚本执行权限
 
@@ -34,7 +34,7 @@ cd asdtools
 chmod +x install.sh
 ```
 
-[![image-20240701203922578](https://github.com/huntingsec/asdtools/image-20240701203922578.png)](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701203922578.png)
+![image-20240701203922578](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701203922578.png)
 
 以root权限安装
 
@@ -42,47 +42,47 @@ chmod +x install.sh
 sudo ./install.sh
 ```
 
-[![image-20240701204031463](https://github.com/huntingsec/asdtools/image-20240701204031463.png)](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701204031463.png)
+![image-20240701204031463](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701204031463.png)
 
 这是为了修改用户的执行权限
 
-[![image-20240701204153909](https://github.com/huntingsec/asdtools/image-20240701204153909.png)](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701204153909.png)
+![image-20240701204153909](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701204153909.png)
 
 等待安装完成，输入asd进入菜单
 
-[![image-20240701204251185](https://github.com/huntingsec/asdtools/image-20240701204251185.png)](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701204251185.png)
+![image-20240701204251185](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701204251185.png)
 
-[![image-20240701220611993](https://github.com/huntingsec/asdtools/image-20240701220611993.png)](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701220611993.png)
+![image-20240701220611993](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701220611993.png)
 
 可以用关键字进行选择，也可以鼠标滚轮，还可以双坤
 
-[![image-20240701220726971](https://github.com/huntingsec/asdtools/image-20240701220726971.png)](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701220726971.png)
+![image-20240701220726971](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701220726971.png)
 
 绝大部分是可以直接执行的，仅有一部分是需要交互的
 
 比如设置代理需要先切换到root模式
 
-[![image-20240701221016833](https://github.com/huntingsec/asdtools/image-20240701221016833.png)](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701221016833.png)
+![image-20240701221016833](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701221016833.png)
 
 这里可以选择代理的协议，键入IP和端口
 
 （PS：这里采用删掉最后一行然后再追加一行的方式配置代理，方便快捷，嘎嘎好用，在也不用vi /etc/proxychinas4.conf了）
 
-[![image-20240701221102460](https://github.com/huntingsec/asdtools/image-20240701221102460.png)](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701221102460.png)
+![image-20240701221102460](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701221102460.png)
 
 例子2：
 
 log4j的工具使用
 
-[![image-20240701221353945](https://github.com/huntingsec/asdtools/image-20240701221353945.png)](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701221353945.png)
+![image-20240701221353945](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701221353945.png)
 
 可以输入要执行的命令，譬如ping dnslog.cn
 
-[![image-20240701221514766](https://github.com/huntingsec/asdtools/image-20240701221514766.png)](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701221514766.png)
+![image-20240701221514766](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701221514766.png)
 
 然后输入IP，这样能极大程度减少我们的操作量
 
-[![image-20240701221636819](https://github.com/huntingsec/asdtools/image-20240701221636819.png)](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701221636819.png)
+![image-20240701221636819](https://raw.githubusercontent.com/huntingsec/asdtools/main/image-20240701221636819.png)
 
 另外，在linux上执行二进制的pppscan或者tscanplus的时候会报错找不到libwebkit2gtk-4.0.so.37
 
@@ -96,7 +96,8 @@ sudo ln -sf /usr/lib/x86_64-linux-gnu/libjavascriptcoregtk-4.1.so.0 /usr/lib/x86
 ```
 
 其次为了方便系统和cms的定位，实现准确的打点，后面的版本会增加更详细的匹配规则以及bypass的命令，感谢大家的支持。
-
+大家有什么意见或者建议可以添加好友进群反馈
+![team](https://raw.githubusercontent.com/huntingsec/ARL-Limited-Edition/main/link.jpg)
 
 
 

@@ -8,7 +8,7 @@ https://github.com/huntingsec/asdtools
 
 天下武功，无坚不破，唯快不破
 
-[![logo]](https://raw.githubusercontent.com/huntingsec/asdtools/main/logo.png)
+https://raw.githubusercontent.com/huntingsec/asdtools/main/logo.png
 
 为了快速上手，快速打点而生（由此得名：键盘输入asd是最快的[肌肉记忆了]）
 

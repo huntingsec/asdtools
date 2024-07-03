@@ -99,6 +99,10 @@ sudo ln -sf /usr/lib/x86_64-linux-gnu/libjavascriptcoregtk-4.1.so.0 /usr/lib/x86
 大家有什么意见或者建议可以添加好友进群反馈
 ![team](https://raw.githubusercontent.com/huntingsec/ARL-Limited-Edition/main/link.jpg)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=huntingsec/asdtools&type=Date)](https://star-history.com/#huntingsec/asdtools&Date)
+
 
 
 
